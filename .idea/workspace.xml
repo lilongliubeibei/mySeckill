@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mySeckill:war" />
+      <artifact name="mySeckill:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0dc24a40-978d-4654-96ea-63d8b5597efb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mySeckill.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/dao/SeckillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/dao/SuccessKilledMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/dao/cache/RedisDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/dto/Exposer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/dto/SeckillExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/dto/SeckillResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/entity/Seckill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/entity/SuccessKilled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/enums/SeckillStatEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/exception/RepeatKillException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/exception/SeckillCloseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/exception/SeckillException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/service/SeckillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/service/interfaces/SeckillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nnngu/web/SeckillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.nnngu.dao/SeckillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.nnngu.dao/SuccessKilledMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/tag.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/localData.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/localDataTime.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/bootstrap-3.3.0/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/jquery.cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nnngu/dao/SeckillMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nnngu/service/SeckillServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com.nnngu.dao/SeckillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com.nnngu.dao/SuccessKilledMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/dao/SeckillMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/dao/SuccessKilledMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/dao/cache/RedisDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/dto/Exposer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/dto/SeckillExecution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/dto/SeckillResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/entity/Seckill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/entity/SuccessKilled.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/enums/SeckillStatEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/exception/RepeatKillException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/exception/SeckillCloseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/exception/SeckillException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/service/SeckillServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/service/interfaces/SeckillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nnngu/web/SeckillController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com.nnngu.dao/SeckillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com.nnngu.dao/SuccessKilledMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/dao/SeckillMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/dao/SuccessKilledMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/dao/cache/RedisDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/dto/Exposer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/dto/SeckillExecution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/dto/SeckillResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/entity/Seckill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/entity/SuccessKilled.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/enums/SeckillStatEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/exception/RepeatKillException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/exception/SeckillCloseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/exception/SeckillException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/service/SeckillServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/service/interfaces/SeckillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/com/nnngu/web/SeckillController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/classes/spring/applicationContext-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/jsp/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/jsp/common/tag.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/jsp/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/jsp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/jsp/list2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/commons-pool2-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/jackson-core-2.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/jackson-databind-2.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/jedis-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/logback-classic-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/logback-core-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/mybatis-3.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/protostuff-api-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/protostuff-collectionschema-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/protostuff-core-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/protostuff-runtime-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/slf4j-api-1.7.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-aop-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-beans-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-context-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-context-support-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-core-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-expression-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-jcl-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-jdbc-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-test-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-tx-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-web-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/spring-webmvc-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/tags/localData.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/tags/localDataTime.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/bootstrap-3.3.0/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/jquery.cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/plugins/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mySeckill/resources/script/seckill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nnngu/dao/SeckillMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nnngu/service/SeckillServiceImplTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZNNE4MUXY10brQHFQHBTJZH767" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15666667" />
+    <property name="project.structure.side.proportion" value="0.21393728" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_project\mySeckill\src\main\webapp\WEB-INF\jsp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.86">
+    <configuration name="SeckillMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mySeckill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nnngu.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nnngu.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.nnngu.dao.SeckillMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillMapperTest.queryAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mySeckill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nnngu.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.com.nnngu.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.nnngu.dao.SeckillMapperTest" />
+      <option name="METHOD_NAME" value="queryAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillServiceImplTest.getSeckillList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mySeckill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nnngu.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.com.nnngu.service" />
+      <option name="MAIN_CLASS_NAME" value="com.nnngu.service.SeckillServiceImplTest" />
+      <option name="METHOD_NAME" value="getSeckillList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.86" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.86" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mySeckill:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_86_mySeckill" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50853" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mySeckill:war exploded" />
+          <artifact name="mySeckill:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.86" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mySeckill_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mySeckill:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mySeckill_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_mySeckill" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50853" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mySeckill:war exploded" />
+          <artifact name="mySeckill:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SeckillMapperTest.queryAll" />
+      <item itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
+      <item itemvalue="JUnit.SeckillMapperTest" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.86" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
+        <item itemvalue="JUnit.SeckillMapperTest" />
+        <item itemvalue="JUnit.SeckillMapperTest.queryAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.013835086" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0dc24a40-978d-4654-96ea-63d8b5597efb" name="Default Changelist" comment="" />
+      <created>1584675476724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584675476724</updated>
+      <workItem from="1584675481938" duration="5664000" />
+      <workItem from="1584682369003" duration="1688000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="157" y="8" width="1500" height="1005" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584683529373">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="157" y="8" width="1500" height="1005" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1584683529373" />
+    <state x="631" y="128" key="FileChooserDialogImpl" timestamp="1584684040887">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="631" y="128" key="FileChooserDialogImpl/0.0.1920.1024@0.0.1920.1024" timestamp="1584684040887" />
+    <state width="1782" height="140" key="GridCell.Tab.0.bottom" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.0.bottom/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.0.center" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.0.center/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.0.left" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.0.left/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.0.right" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.0.right/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.1.bottom" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.1.bottom/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.1.center" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.1.center/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.1.left" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.1.left/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.1.right" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.1.right/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.2.bottom" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.2.bottom/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.2.center" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.2.center/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.2.left" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.2.left/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state width="1782" height="140" key="GridCell.Tab.2.right" timestamp="1584683635608">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1782" height="140" key="GridCell.Tab.2.right/0.0.1920.1024@0.0.1920.1024" timestamp="1584683635608" />
+    <state x="135" y="0" width="1724" height="1024" key="SettingsEditor" timestamp="1584681346907">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="135" y="0" width="1724" height="1024" key="SettingsEditor/0.0.1920.1024@0.0.1920.1024" timestamp="1584681346907" />
+    <state x="396" y="84" width="1128" height="856" key="find.popup" timestamp="1584683360665">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="396" y="84" width="1128" height="856" key="find.popup/0.0.1920.1024@0.0.1920.1024" timestamp="1584683360665" />
+    <state x="510" y="80" key="spring file set editor" timestamp="1584675796886">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="510" y="80" key="spring file set editor/0.0.1920.1024@0.0.1920.1024" timestamp="1584675796886" />
+  </component>
+</project>
